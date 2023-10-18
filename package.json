@@ -1,0 +1,18 @@
+{
+  "name": "test-cypress-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --browser chrome",
+    "e2e:chrome": "cypress run --browser chrome",
+    "e2e:chrome:headless": "cypress run --browser chrome --headless",
+    "e2e:cypress:open": "cypress open"
+  },
+  "keywords": [],
+  "author": "GH",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.3.0"
+  }
+}
