@@ -8,5 +8,6 @@ ACs:
 
 # Steps for downloading and executing.
 1. git clone https://github.com/chama999/test-cypress
-2. npm install
-3. npm test
+2. cd test-cypress
+3. npm install
+4. npm test
